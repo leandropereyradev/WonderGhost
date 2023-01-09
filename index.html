@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="icon.png">
+    <title>Wonder Ghost</title>
+
+    <meta name="description" content="Wonder Ghost is a JavaScript Game Project"
+      />
+    <meta name="author" content="LeandroPereyra.com" />
+
+    <meta property="og:url" content="https://wonderghost.leandropereyra.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Wonder Ghost" />
+    <meta property="og:description" content="Wonder Ghost is a JavaScript Game
+      Project" />
+    <meta property="og:image" itemProp="image" content="./SEO.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta
+      name="keywords"
+      content="Leandro Pereyra, HTML, CSS, JavaScript"
+      />
+
+    <meta name="msapplication-TileImage" content="./SEO.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="wonderghost.leandropereyra.com" />
+    <meta property="twitter:url"
+      content="https://wonderghost.leandropereyra.com/" />
+    <meta name="twitter:title" content="Wonder Ghost" />
+    <meta name="twitter:description" content="Wonder Ghost is a JavaScript Game
+      Project" />
+    <meta name="twitter:image" content="./SEO.jpg" />
+
+  </head>
+  <body>
+    <img src="./src/img/displayInfo/spiderwebBG.png" alt="spider"
+      class="spider">
+    <img src="./src/img/displayInfo/moonbg.png" alt="spider" class="moon">
+    <div class="container">
+      <div class="header-container">
+        <h1>Wonder Ghost</h1>
+        <p class="info-game">In this adventure, our Wonder Ghost must free his
+          bat friends,
+          captured
+          in experimental cages. Let's help our Ghosthero to face Rockstars
+          zombies, created in the laboratory of the most feared
+          villain of all times: </p>
+        <span>Dr. Julius Motauski</span>
+        <button id="start-button">Start</button>
+      </div>
+      <div class="info-container">
+        <div class="img-container">
+          <div class="info-capture">
+            <p>We accompany our hero through the cemetery to free his bat
+              friends trapped in cages. Our Wonder Ghost throws energy
+              SpiritBombs to defend itself!</p>
+          </div>
+          <div class="first-img">
+            <img src="./src/img/displayInfo/image1.jpg" alt="Ghost">
+          </div>
+        </div>
+        <div class="img-container">
+          <div>
+            <img src="./src/img/displayInfo/image2.jpg" alt="Ghost">
+          </div>
+          <div class="info-capture">
+            <p>At the end of this dark journey, we will help Wonder Ghost to
+              unleash the most epic battle ever told against Dr. Julius
+              Motauski. Thousands of bats trapped for future experiments will
+              have to be released. Join and we will win!</p>
+          </div>
+        </div>
+        <div class="score">
+          <h3>Ghostcores</h3>
+          <p>Here you have the data of each battle that you have fought with
+            Wonder Ghost.</p>
+          <div class="score-table">
+            <div class="header"><p>#</p></div>
+            <div class="header"><p>Name</p></div>
+            <div class="header"><p>Bats Freed</p></div>
+            <div class="header"><p>Rockstars</p></div>
+            <div class="header"><p>Ghostcores</p></div>
+          </div>
+          <div id="score"></div>
+        </div>
+      </div>
+      <div class="canvas-container">
+        <canvas id="canvas"></canvas>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="landing"><a href="https://www.leandropereyra.com"
+          target="_blank" rel="noopener noreferrer">www.LeandroPereyra.com</a></p>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"
+      integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
